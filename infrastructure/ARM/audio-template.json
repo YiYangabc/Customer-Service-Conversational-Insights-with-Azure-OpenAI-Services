@@ -419,6 +419,9 @@
                     "TextAnalyticsEndpoint": {
                         "value": "[concat('https://',parameters('location'),'.api.cognitive.microsoft.com')]"   
                     },
+                    "textAnalyticsRegion": {
+                        "value": "[parameters('location')]"
+                    },
                     "SentimentAnalysis": {
                         "value": "[parameters('speechSentimentAnalysis')]"
                     },
